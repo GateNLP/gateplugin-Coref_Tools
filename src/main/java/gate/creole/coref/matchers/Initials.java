@@ -26,7 +26,7 @@ import static gate.creole.coref.Utils.INITIALS_PATTERN;
 
 /**
  * A {@link Matcher} that checks whether the text of one annotation is the 
- * initials of another (e.g. MD <-> McDonnel Douglas).
+ * initials of another (e.g. MD &lt;-&gt; McDonnel Douglas).
  */
 public class Initials extends AbstractMatcher {
 

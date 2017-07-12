@@ -25,7 +25,7 @@ import java.util.Set;
 import static gate.creole.coref.Utils.MWE_UPPER_INITIAL_PATTERN;
 /**
  * Tagger that emits constituent words of a multi-word name as tags (e.g. 
- * &quot;Lehman Brothers&quot -> {&quot;Lehman&quot;, &quot;Brothers&quot;).
+ * &quot;Lehman Brothers&quot; -&gt; {&quot;Lehman&quot;, &quot;Brothers&quot;).
  */
 public class MwePart extends AbstractTagger {
   

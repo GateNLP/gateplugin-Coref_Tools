@@ -25,7 +25,7 @@ import java.util.Set;
 
 /**
  * A {@link Tagger} that uses the initials of a multi-word capitalised text as a
- * tag (International Business Machines -> {IBM, I.B.M.}).
+ * tag (International Business Machines -&gt; {IBM, I.B.M.}).
  */
 public class Initials extends AbstractTagger {
   

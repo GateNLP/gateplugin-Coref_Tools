@@ -36,7 +36,7 @@ public class Utils {
   
   /**
    * {@link Pattern} used to identify abbreviations based on initials (e.g. 
-   * &quot;BT&quot; or &quot;B.T.&quot).
+   * &quot;BT&quot; or &quot;B.T.&quot;).
    */
   public static final Pattern INITIALS_PATTERN = Pattern.compile(
       "\\p{javaUpperCase}+|(?:\\p{javaUpperCase}\\.)+");
